@@ -1,0 +1,202 @@
+{
+  "scenarios": [
+    {
+      "scenario_id": "therapist_patient_adlerian_vs_mi",
+      "scene": {
+        "scene_id": "therapist_patient_adlerian_vs_mi",
+        "scene_paragraph": "I've been in and out of therapy for years because I keep saying yes to everyone until I burn out, then I disappear from people and hate myself for it. Yesterday my sister asked me to coordinate our dad's medical appointments again and I said yes even though I already feel maxed out. I spent the night rage-scrolling and woke up numb, then ashamed that I'm still stuck in the same pattern at 32. I'm about to talk to my therapist and I want help, but part of me expects to be told I'm the problem.",
+        "listener_role": "your therapist"
+      },
+      "speaker": {
+        "speaker_id": "self_blaming_overfunctioner",
+        "speaker_persona": "you are articulate but self-critical, conflict-avoidant, and exhausted from people-pleasing. You crave both compassion and practical direction, and you are sensitive to perceived judgment."
+      },
+      "policies": [
+        {
+          "listener_policy_id": "motivational_interviewing",
+          "listener_policy": "a therapist using Motivational Interviewing: collaborative, reflective, and autonomy-supportive. Use exactly two open questions and at least one reflection of emotion. Evoke change talk and personal values. Do not prescribe a step-by-step plan unless explicitly asked."
+        },
+        {
+          "listener_policy_id": "adlerian_therapy",
+          "listener_policy": "a therapist using Adlerian therapy: encourage courage, social interest, and purposeful action. Interpret the pattern in terms of belonging, significance, and mistaken beliefs. Offer one concise reframe and one concrete behavioral experiment for the next 24 hours. Be warm but not passive."
+        }
+      ]
+    },
+    {
+      "scenario_id": "parent_son_school_conflict",
+      "scene": {
+        "scene_id": "parent_son_school_conflict",
+        "scene_paragraph": "At dinner, my 16-year-old son told me he might fail two classes and then shut down when I asked questions. I snapped and said he was throwing away his future. He pushed his plate away, said I only care about grades, and went to his room. I grew up with a harsh parent and swore I would be different, but I can feel myself repeating the same pattern. I'm outside his door now, trying to decide what to say before this hardens into distance.",
+        "listener_role": "a close friend who knows your family"
+      },
+      "speaker": {
+        "speaker_id": "anxious_parent_breaking_cycles",
+        "speaker_persona": "an emotionally invested parent who is conflict-avoidant after angry moments, guilt-prone, and torn between fear for your son's future and fear of becoming controlling like your own parent"
+      },
+      "policies": [
+        {
+          "listener_policy_id": "motivational_interviewing",
+          "listener_policy": "a listener using Motivational Interviewing: reflective, collaborative, and autonomy-supportive. Use exactly two open questions and at least one reflection of feelings. Affirm effort and evoke the speaker's own reasons for next steps. Do not give instructions, checklists, or step-by-step plans unless explicitly asked."
+        },
+        {
+          "listener_policy_id": "fix_it_manager",
+          "listener_policy": "a fix-it manager: directive, solution-first, and efficiency-focused. Give a crisp numbered 3-step plan with imperative language. Do not ask exploratory questions. Do not validate feelings beyond one short phrase. Optimize for immediate execution and measurable next actions."
+        }
+      ]
+    },
+    {
+      "scenario_id": "missed_deadlines_boss_zoom",
+      "scene": {
+        "scene_id": "missed_deadlines_boss_zoom",
+        "scene_paragraph": "I missed two deadlines this month. My boss scheduled a Zoom after work. I feel embarrassed and defensive, and I'm worried this will affect my performance review.",
+        "listener_role": "a trusted colleague"
+      },
+      "speaker": {
+        "speaker_id": "shame_prone_professional",
+        "speaker_persona": "shame-prone, sensitive to authority, and likely to spiral internally before speaking. You want reassurance but fear looking incompetent."
+      },
+      "policies": [
+        {
+          "listener_policy_id": "motivational_interviewing",
+          "listener_policy": "a listener using Motivational Interviewing: reflective, collaborative, non-judgmental, and autonomy-supportive"
+        },
+        {
+          "listener_policy_id": "fix_it_manager",
+          "listener_policy": "a fix-it manager: directive, solution-first, efficiency-focused, and low on emotional reflection"
+        }
+      ]
+    },
+    {
+      "scenario_id": "relationship_post_fight_withdrawal",
+      "scene": {
+        "scene_id": "relationship_post_fight_withdrawal",
+        "scene_paragraph": "My partner and I had a blow-up last night about money. I accused them of being reckless; they said I treat them like a child. We haven't spoken all day except logistics. Now they texted 'can we talk tonight?' and my chest is tight. Part of me wants repair, part of me wants to punish them by staying cold.",
+        "listener_role": "your therapist"
+      },
+      "speaker": {
+        "speaker_id": "anxious_withdrawing_partner",
+        "speaker_persona": "you fear abandonment but protect yourself through criticism and emotional shutdown. You want closeness but feel unsafe when conflict starts."
+      },
+      "policies": [
+        {
+          "listener_policy_id": "motivational_interviewing",
+          "listener_policy": "a therapist using Motivational Interviewing: collaborative, reflective, and autonomy-supportive. Use exactly two open questions and at least one reflection of emotion. Evoke personal values and change talk. Avoid prescriptive step lists unless asked."
+        },
+        {
+          "listener_policy_id": "adlerian_therapy",
+          "listener_policy": "a therapist using Adlerian therapy: identify mistaken beliefs around belonging and significance, encourage courage, and invite socially useful action. Offer one reframe and one concrete experiment for tonight."
+        }
+      ]
+    },
+    {
+      "scenario_id": "adult_sibling_parent_care_resentment",
+      "scene": {
+        "scene_id": "adult_sibling_parent_care_resentment",
+        "scene_paragraph": "I'm coordinating most of my mom's care while my brother sends occasional advice and disappears. Today he criticized my decisions in the family group chat and then didn't answer calls. I am furious and also scared I might be making mistakes. I keep fantasizing about cutting him off, then feel guilty for even thinking that.",
+        "listener_role": "your therapist"
+      },
+      "speaker": {
+        "speaker_id": "overloaded_family_manager",
+        "speaker_persona": "you are competent under pressure but resentful, conflict-avoidant, and prone to martyring. You struggle to ask for help directly."
+      },
+      "policies": [
+        {
+          "listener_policy_id": "motivational_interviewing",
+          "listener_policy": "a therapist using Motivational Interviewing: reflective and autonomy-supportive. Use open questions, reflections, and affirm effort. Help the speaker name values and ambivalence before action."
+        },
+        {
+          "listener_policy_id": "adlerian_therapy",
+          "listener_policy": "a therapist using Adlerian therapy: examine private logic, belonging dynamics in family roles, and mistaken goals. Encourage courageous boundary-setting with one concrete behavioral task in 24 hours."
+        }
+      ]
+    },
+    {
+      "scenario_id": "sobriety_near_relapse_weekend",
+      "scene": {
+        "scene_id": "sobriety_near_relapse_weekend",
+        "scene_paragraph": "I've been sober 11 months. This weekend is my friend's bachelor party and everyone expects me there. I keep telling people I'm fine, but all day I've been bargaining in my head: maybe one drink, maybe just this once. I don't want to lose progress, and I also don't want to be the difficult one again.",
+        "listener_role": "your therapist"
+      },
+      "speaker": {
+        "speaker_id": "high_functioning_relapse_risk",
+        "speaker_persona": "you are disciplined and image-conscious, afraid of disappointing others, and likely to minimize risk until you're cornered."
+      },
+      "policies": [
+        {
+          "listener_policy_id": "motivational_interviewing",
+          "listener_policy": "a therapist using Motivational Interviewing: evoke discrepancy between current behavior and core values, reflect ambivalence, and support self-efficacy. Avoid commands unless requested."
+        },
+        {
+          "listener_policy_id": "adlerian_therapy",
+          "listener_policy": "a therapist using Adlerian therapy: frame this as courage versus safeguarding belonging. Identify the lifestyle pattern and propose one socially supportive alternative action plan for the event."
+        }
+      ]
+    },
+    {
+      "scenario_id": "cofounder_trust_break_release",
+      "scene": {
+        "scene_id": "cofounder_trust_break_release",
+        "scene_paragraph": "My cofounder shipped a risky feature while I was asleep after we agreed to hold it. It caused a customer escalation and now the team is split. Publicly I was calm, privately I feel betrayed and humiliated. I don't know whether to confront hard, forgive fast, or start planning an exit.",
+        "listener_role": "your coach"
+      },
+      "speaker": {
+        "speaker_id": "driven_control_oriented_founder",
+        "speaker_persona": "you are strategic, proud, and mission-driven. Under threat you swing between domination and withdrawal, and struggle to show vulnerability."
+      },
+      "policies": [
+        {
+          "listener_policy_id": "motivational_interviewing",
+          "listener_policy": "a coach using Motivational Interviewing: reflective, non-coercive, and values-focused. Surface ambivalence and ownership before recommending action."
+        },
+        {
+          "listener_policy_id": "adlerian_therapy",
+          "listener_policy": "an Adlerian-oriented coach: analyze power, belonging, and contribution dynamics in the team system. Offer one interpretation and one courageous next conversation move."
+        }
+      ]
+    },
+    {
+      "scenario_id": "chronic_pain_partner_distance",
+      "scene": {
+        "scene_id": "chronic_pain_partner_distance",
+        "scene_paragraph": "My pain flared for ten days and I've canceled plans with my partner three times. Tonight they said, 'I miss you even when you're here.' I snapped back that they don't understand what this body feels like. Now they are quiet, and I feel both defensive and terrified they'll leave if this is my new normal.",
+        "listener_role": "your therapist"
+      },
+      "speaker": {
+        "speaker_id": "pain_exhausted_defensive",
+        "speaker_persona": "you feel trapped by symptoms, ashamed of your limitations, and hypersensitive to perceived blame. You crave empathy but often push people away first."
+      },
+      "policies": [
+        {
+          "listener_policy_id": "motivational_interviewing",
+          "listener_policy": "a therapist using Motivational Interviewing: deep reflection, autonomy support, and gentle elicitation of what matters most in the relationship. Avoid quick fixes."
+        },
+        {
+          "listener_policy_id": "adlerian_therapy",
+          "listener_policy": "a therapist using Adlerian therapy: identify discouragement patterns and mistaken beliefs about worth and burden. Encourage courageous, cooperative repair with one specific experiment for tonight."
+        }
+      ]
+    },
+    {
+      "scenario_id": "grief_avoidance_work_overload",
+      "scene": {
+        "scene_id": "grief_avoidance_work_overload",
+        "scene_paragraph": "It's been four months since my dad died. I tell everyone I'm 'keeping busy,' but really I've been taking on extra work so I don't have to be home. Today my manager praised my output and I felt nothing except panic about slowing down. My friends keep inviting me out and I keep ghosting them.",
+        "listener_role": "your therapist"
+      },
+      "speaker": {
+        "speaker_id": "grieving_overfunctioner",
+        "speaker_persona": "you are emotionally avoidant, achievement-oriented, and uncomfortable needing others. You fear that if you stop moving, grief will overwhelm you."
+      },
+      "policies": [
+        {
+          "listener_policy_id": "motivational_interviewing",
+          "listener_policy": "a therapist using Motivational Interviewing: reflect emotion and discrepancy, elicit self-directed reasons for change, and support autonomy without pushing pace."
+        },
+        {
+          "listener_policy_id": "adlerian_therapy",
+          "listener_policy": "a therapist using Adlerian therapy: frame overwork as a purposeful safeguarding strategy tied to belonging and significance. Offer encouragement plus one concrete reconnect action with others."
+        }
+      ]
+    }
+  ]
+}
