@@ -30,6 +30,16 @@ Primary work lives in: `chapter4_alignment_science/exercises/part4_persona_vecto
   - `improv_therapy_mvp.py` — multi-turn improv therapy sessions
   - `solutions_my_work.py` — personal solutions to ARENA exercises
 
+## Machine Setup Notes
+This work runs fine locally (no GPU needed) for behavioral/API work.
+GPU is only needed when USE_LOCAL=True (local Gemma model) or for steering vector extraction.
+
+### To resume on a new machine:
+1. Clone repo: `git clone git@github.com:derrick20/ARENA_3.0.git && cd ARENA_3.0 && git checkout alignment-science`
+2. Clone sotopia: `git clone git@github.com:sotopia-lab/sotopia.git /path/to/sotopia && cd /path/to/sotopia && uv sync && uv add datasets`
+3. Add SSH key to GitHub (generate with `ssh-keygen -t ed25519 -C "derrickyiboliang@gmail.com"`)
+4. Create `.env` in `part4_persona_vectors/` with `OPENROUTER_API_KEY=...`
+
 ## Key Dependencies
 - OpenRouter API key in `part4_persona_vectors/.env` (never commit this)
 - Model: `anthropic/claude-haiku-4-5` via OpenRouter for generation + judging
