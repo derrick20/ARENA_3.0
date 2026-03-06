@@ -35,7 +35,7 @@ DTYPE = t.bfloat16
 MAIN = __name__ == "__main__"
 
 # Tee print output to a log file so it's visible outside the kernel
-_log_file = open("/workspace/ARENA_3.0/chapter4_alignment_science/exercises/part4_persona_vectors/exploration_log.txt", "a")
+_log_file = open(Path(__file__).parent / "exploration_log.txt", "a")
 _builtin_print = print
 def print(*args, **kwargs):  # noqa: A001
     _builtin_print(*args, **kwargs)

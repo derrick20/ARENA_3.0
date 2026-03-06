@@ -1,10 +1,12 @@
 # %%
 
 
+from pathlib import Path
+
 # Tee print output to master_4_4_output.txt so we can share logs without copy-pasting.
 # This overrides print for Section 4 onward - output goes to both console and file.
 _builtin_print = print
-_output_file = open("/root/ARENA_3.0/infrastructure/chapters/chapter4_alignment_science/master_4_4_output.txt", "a")
+_output_file = open(Path(__file__).parent / "master_4_4_output.txt", "a")
 
 
 def print(*args, **kwargs):  # noqa: A001
